@@ -44,6 +44,10 @@ height:400px;
 
 } */
 
+.card-title{
+    margin-bottom: 5px;
+}
+
 #prof{
     padding: 30px;
     background:url(8a6d49f256862b76dce4ea9bdd9a7e1f.jpg); 
@@ -72,6 +76,10 @@ height:400px;
 #icon{
     margin: 20px;
     width: 100px;
+}
+code{
+    font-size: 20px;
+    
 }
 #bio   {
     color: gray;
