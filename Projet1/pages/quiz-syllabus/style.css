@@ -1,0 +1,165 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h4 {
+    text-align: center;
+    color: #4a90e2;
+}
+
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 15px;
+    background-color: #4a90e2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #357ab7;
+}
+
+/* Conteneur principal du quiz */
+.quizDiv {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Titre du quiz */
+.quizDiv h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Question */
+.quizDiv h4 {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #555;
+}
+
+/* Liste des propositions */
+.options-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.option {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.option:hover {
+    background-color: #e9f7ff;
+    transform: scale(1.02);
+}
+
+.option:active {
+    transform: scale(0.98);
+}
+
+.option.correct {
+    background-color: rgb(92, 137, 92);
+    color: white;
+    border-color: rgb(76, 115, 76);
+}
+
+.option.incorrect {
+    background-color: rgb(222, 99, 99);
+    color: white;
+    border-color: rgb(200, 80, 80);
+}
+
+/* Explication */
+.quizDiv p {
+    margin: 20px 0 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #4a90e2;
+    font-style: italic;
+}
+
+/* Résultats */
+.quizDiv h2:last-of-type {
+    color: #333;
+    font-size: 22px;
+    margin-top: 30px;
+    animation: pop 0.3s ease;
+}
+
+@keyframes pop {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Adaptation pour les petits écrans */
+@media (max-width: 600px) {
+    .quizDiv {
+        padding: 15px;
+    }
+
+    h1,
+    h2,
+    h4 {
+        font-size: 18px;
+    }
+
+    .option {
+        font-size: 14px;
+    }
+}
+
+.suivant{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.suivant:hover{
+    background-color: #101010;
+    color: #ddd;
+    transform: scale(1.02);
+    transition: background-color 1s ease, transform 0.2s ease;
+}

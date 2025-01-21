@@ -1,0 +1,340 @@
+[
+    {
+        "id": 1,
+        "chapter": "Chapitre 1 : Fondamentaux des tests",
+        "question": "Quel est l'objectif principal du test logiciel ?",
+        "options": [
+            "Corriger les défauts",
+            "Évaluer la qualité des logiciels",
+            "Garantir un produit sans défaut",
+            "Optimiser les performances du système"
+        ],
+        "correctAnswer": "Évaluer la qualité des logiciels",
+        "reference": "Section 1.1.1 - Objectifs du test",
+        "explanation": "Le test vise à évaluer la qualité des logiciels et à réduire les risques de défaillance."
+    },
+    {
+        "id": 2,
+        "chapter": "Chapitre 1 : Fondamentaux des tests",
+        "question": "Quelle est la différence principale entre le test et le débogage ?",
+        "options": [
+            "Le test identifie les défauts, le débogage les corrige",
+            "Le test est manuel, le débogage est automatisé",
+            "Le test est effectué par les testeurs, le débogage par les utilisateurs",
+            "Le test s'applique uniquement au code source"
+        ],
+        "correctAnswer": "Le test identifie les défauts, le débogage les corrige",
+        "reference": "Section 1.1.2 - Test et débogage",
+        "explanation": "Le test identifie les défaillances et le débogage consiste à analyser et corriger les causes racines."
+    },
+    {
+        "id": 3,
+        "chapter": "Chapitre 1 : Fondamentaux des tests",
+        "question": "Quel principe de test indique qu'il est impossible de tout tester ?",
+        "options": [
+            "Regroupement des défauts",
+            "Tester tôt économise du temps et de l'argent",
+            "Le test exhaustif est impossible",
+            "Le test dépend du contexte"
+        ],
+        "correctAnswer": "Le test exhaustif est impossible",
+        "reference": "Section 1.3 - Principes du test",
+        "explanation": "Il n'est pas possible de tester tous les scénarios dans un système complexe."
+    },
+    {
+        "id": 4,
+        "chapter": "Chapitre 1 : Fondamentaux des tests",
+        "question": "Parmi les énoncés suivants, lesquels sont des objectifs habituels du test ?",
+        "options": [
+            "Provoquer des défaillances et trouver des défauts",
+            "Valider si le système répond aux besoins des utilisateurs",
+            "Augmenter les performances des tests",
+            "Réduire les coûts de développement"
+        ],
+        "correctAnswer": [
+            "Provoquer des défaillances et trouver des défauts",
+            "Valider si le système répond aux besoins des utilisateurs"
+        ],
+        "reference": "Section 1.1.1 - Objectifs du test",
+        "explanation": "Ces objectifs visent à évaluer la qualité et à identifier les défauts dans les logiciels."
+    },
+    {
+        "id": 5,
+        "chapter": "Chapitre 1 : Fondamentaux des tests",
+        "question": "Quel est un avantage de l'approche équipe intégrée dans le test logiciel ?",
+        "options": [
+            "Réduction des coûts de formation",
+            "Amélioration de la communication et de la collaboration",
+            "Suppression des besoins en outils de test",
+            "Élimination complète des défauts"
+        ],
+        "correctAnswer": "Amélioration de la communication et de la collaboration",
+        "reference": "Section 1.5.2 - Approche équipe intégrée",
+        "explanation": "Cette approche favorise une meilleure dynamique et collaboration au sein des équipes."
+    },
+    {
+        "id": 6,
+        "chapter": "Chapitre 2 : Tester tout au long du cycle de vie",
+        "question": "Quelle approche de test est souvent associée à DevOps ?",
+        "options": [
+            "Approche centrée sur le produit",
+            "Approche shift-left",
+            "Test boîte blanche",
+            "Test exploratoire"
+        ],
+        "correctAnswer": "Approche shift-left",
+        "reference": "Section 2.1.5 - Approche shift-left",
+        "explanation": "L'approche shift-left encourage à tester tôt pour détecter les défauts dès les premières phases du développement."
+    },
+    {
+        "id": 7,
+        "chapter": "Chapitre 2 : Tester tout au long du cycle de vie",
+        "question": "Quels sont les niveaux de test dans le cycle de vie ?",
+        "options": [
+            "Test unitaire, test d'intégration, test système, test d'acceptation",
+            "Test unitaire, test d'intégration, test dynamique, test exploratoire",
+            "Test boîte noire, test boîte blanche, test exploratoire, test statique",
+            "Test système, test de maintenance, test exploratoire, test de régression"
+        ],
+        "correctAnswer": "Test unitaire, test d'intégration, test système, test d'acceptation",
+        "reference": "Section 2.2.1 - Niveaux de test",
+        "explanation": "Ces niveaux sont définis pour structurer les tests dans le cycle de vie."
+    },
+    {
+        "id": 8,
+        "chapter": "Chapitre 2 : Tester tout au long du cycle de vie",
+        "question": "Quel est l'objectif principal des tests de régression ?",
+        "options": [
+            "Tester les fonctionnalités nouvelles",
+            "Valider les performances du système",
+            "Vérifier que les modifications n'ont pas introduit de défauts",
+            "Détecter les défauts d'intégration"
+        ],
+        "correctAnswer": "Vérifier que les modifications n'ont pas introduit de défauts",
+        "reference": "Section 2.2.3 - Test de régression",
+        "explanation": "Les tests de régression valident que les corrections ou modifications n'ont pas causé de nouveaux défauts."
+    },
+    {
+        "id": 9,
+        "chapter": "Chapitre 2 : Tester tout au long du cycle de vie",
+        "question": "Quels types de tests sont utilisés pour valider les exigences non fonctionnelles ?",
+        "options": [
+            "Tests d'intégration",
+            "Tests fonctionnels",
+            "Tests de performance",
+            "Tests d'acceptation"
+        ],
+        "correctAnswer": "Tests de performance",
+        "reference": "Section 2.2.2 - Types de test",
+        "explanation": "Les tests de performance valident des exigences comme la rapidité ou la stabilité du système."
+    },
+    {
+        "id": 10,
+        "chapter": "Chapitre 2 : Tester tout au long du cycle de vie",
+        "question": "Dans quel contexte les tests de maintenance sont-ils effectués ?",
+        "options": [
+            "Lors de l'intégration des composants",
+            "Après la mise en production du système",
+            "Avant la livraison initiale du logiciel",
+            "Pendant les tests d'acceptation"
+        ],
+        "correctAnswer": "Après la mise en production du système",
+        "reference": "Section 2.3 - Test de maintenance",
+        "explanation": "Les tests de maintenance visent à valider les corrections ou évolutions après la mise en production."
+    },
+    {
+        "id": 11,
+        "chapter": "Chapitre 3 : Test statique",
+        "question": "Qu'est-ce qui différencie le test statique du test dynamique ?",
+        "options": [
+            "Le test statique nécessite l'exécution du code",
+            "Le test dynamique inclut les revues de code",
+            "Le test statique ne nécessite pas l'exécution du code",
+            "Le test dynamique s'effectue uniquement sur les documents"
+        ],
+        "correctAnswer": "Le test statique ne nécessite pas l'exécution du code",
+        "reference": "Section 3.1.3 - Différences entre le test statique et le test dynamique",
+        "explanation": "Le test statique évalue les artefacts logiciels sans exécuter le code, contrairement au test dynamique."
+    },
+    {
+        "id": 12,
+        "chapter": "Chapitre 3 : Test statique",
+        "question": "Quels sont les types de revues inclus dans le test statique ?",
+        "options": [
+            "Revue informelle, revue technique, revue de gestion, revue formelle",
+            "Revue exploratoire, revue technique, revue de code, revue documentaire",
+            "Revue statique, revue dynamique, revue technique, revue collaborative",
+            "Revue de test, revue unitaire, revue technique, revue collaborative"
+        ],
+        "correctAnswer": "Revue informelle, revue technique, revue de gestion, revue formelle",
+        "reference": "Section 3.2.4 - Types de revues",
+        "explanation": "Ces types de revues sont utilisés pour analyser les documents et artefacts logiciels de manière statique."
+    },
+    {
+        "id": 13,
+        "chapter": "Chapitre 3 : Test statique",
+        "question": "Quelle est une valeur ajoutée des tests statiques ?",
+        "options": [
+            "Ils augmentent les performances du système",
+            "Ils détectent les défauts tôt et à moindre coût",
+            "Ils remplacent les tests dynamiques",
+            "Ils éliminent complètement les défaillances"
+        ],
+        "correctAnswer": "Ils détectent les défauts tôt et à moindre coût",
+        "reference": "Section 3.1.2 - Valeur du test statique",
+        "explanation": "Les tests statiques permettent d'identifier les défauts dès les premières phases, réduisant ainsi les coûts."
+    },
+    {
+        "id": 14,
+        "chapter": "Chapitre 3 : Test statique",
+        "question": "Quel rôle est essentiel dans une revue formelle ?",
+        "options": [
+            "Manager de test",
+            "Modérateur",
+            "Développeur",
+            "Utilisateur final"
+        ],
+        "correctAnswer": "Modérateur",
+        "reference": "Section 3.2.3 - Rôles et responsabilités dans les revues",
+        "explanation": "Le modérateur est responsable de l'organisation et de la direction des revues formelles."
+    },
+    {
+        "id": 15,
+        "chapter": "Chapitre 4 : Analyse et conception des tests",
+        "question": "Quelle technique de test boîte noire utilise des partitions d'équivalence ?",
+        "options": [
+            "Test des instructions",
+            "Test des branches",
+            "Partitions d'équivalence",
+            "Analyse des valeurs limites"
+        ],
+        "correctAnswer": "Partitions d'équivalence",
+        "reference": "Section 4.2.1 - Partitions d'équivalence",
+        "explanation": "Cette technique divise les données en groupes où le comportement du système est supposé identique."
+    },
+    {
+        "id": 16,
+        "chapter": "Chapitre 4 : Analyse et conception des tests",
+        "question": "Quelle technique est utilisée pour tester les transitions entre états ?",
+        "options": [
+            "Analyse des valeurs limites",
+            "Test par tables de décisions",
+            "Test de transition d'état",
+            "Partitions d'équivalence"
+        ],
+        "correctAnswer": "Test de transition d'état",
+        "reference": "Section 4.2.4 - Test de transition d'état",
+        "explanation": "Le test de transition d'état valide le comportement du système lorsqu'il passe d'un état à un autre."
+    },
+    {
+        "id": 17,
+        "chapter": "Chapitre 5 : Gestion des tests",
+        "question": "Quelles sont les étapes clés d'un plan de gestion des tests ?",
+        "options": [
+            "Définition des objectifs, planification, exécution, reporting, clôture",
+            "Développement du produit, revue des exigences, support client",
+            "Planification budgétaire, estimation des ressources, formation",
+            "Conception de l'interface utilisateur, intégration système"
+        ],
+        "correctAnswer": "Définition des objectifs, planification, exécution, reporting, clôture",
+        "reference": "Section 5.1 - Gestion des tests",
+        "explanation": "Un plan de gestion des tests inclut les objectifs, la stratégie et les étapes pour garantir un processus structuré."
+    },
+    {
+        "id": 18,
+        "chapter": "Chapitre 5 : Gestion des tests",
+        "question": "Quel est le rôle des critères d'entrée dans le processus de test ?",
+        "options": [
+            "Identifier les cas de test critiques",
+            "Évaluer les performances système",
+            "Définir les conditions nécessaires pour démarrer les tests",
+            "Planifier les activités de maintenance"
+        ],
+        "correctAnswer": "Définir les conditions nécessaires pour démarrer les tests",
+        "reference": "Section 5.2 - Critères d'entrée et de sortie",
+        "explanation": "Les critères d'entrée définissent les prérequis indispensables pour initier les activités de test."
+    },
+    {
+        "id": 19,
+        "chapter": "Chapitre 6 : Outils de support",
+        "question": "Quel type d'outil est utilisé pour la gestion des tests ?",
+        "options": [
+            "Outil de suivi des défauts",
+            "Outil de gestion des tests",
+            "Outil d'automatisation des tests",
+            "Outil de revue de code"
+        ],
+        "correctAnswer": "Outil de gestion des tests",
+        "reference": "Section 6.1.1 - Outils de support",
+        "explanation": "Les outils de gestion des tests aident à planifier, suivre et organiser les cas de test et les activités associées."
+    },
+    {
+        "id": 20,
+        "chapter": "Chapitre 6 : Outils de support",
+        "question": "Quels sont les avantages des outils de test de performance ?",
+        "options": [
+            "Suivi des versions logicielles",
+            "Validation des spécifications produit",
+            "Simulation des charges utilisateur pour mesurer les performances",
+            "Détection automatique des erreurs de logique"
+        ],
+        "correctAnswer": "Simulation des charges utilisateur pour mesurer les performances",
+        "reference": "Section 6.3 - Tests de performance",
+        "explanation": "Ces outils mesurent la rapidité et la stabilité des systèmes sous différentes conditions de charge."
+    },
+    {
+        "id": 21,
+        "chapter": "Chapitre 5 : Gestion des tests",
+        "question": "Quel facteur est crucial lors de la priorisation des tests ?",
+        "options": [
+            "La complexité des tests",
+            "Les contraintes budgétaires",
+            "La criticité des fonctionnalités",
+            "Le niveau d'expérience des testeurs"
+        ],
+        "correctAnswer": "La criticité des fonctionnalités",
+        "reference": "Section 5.4 - Priorisation des tests",
+        "explanation": "Les fonctionnalités critiques pour l'utilisateur final doivent être testées en priorité pour minimiser les risques."
+    },
+    {
+        "id": 22,
+        "chapter": "Chapitre 5 : Gestion des tests",
+        "question": "Qu'est-ce qu'un critère de sortie dans le processus de test ?",
+        "options": [
+            "Une méthode de documentation",
+            "Une condition pour arrêter les tests",
+            "Une stratégie de débogage",
+            "Un ensemble de scripts à exécuter"
+        ],
+        "correctAnswer": "Une condition pour arrêter les tests",
+        "reference": "Section 5.2 - Critères d'entrée et de sortie",
+        "explanation": "Les critères de sortie déterminent quand les tests peuvent être considérés comme terminés."
+    },
+    {
+        "id": 23,
+        "chapter": "Chapitre 6 : Outils de support",
+        "question": "Quels outils permettent d'automatiser les tests ?",
+        "options": [
+            "Outils de gestion de projet",
+            "Outils d'exécution de tests automatiques",
+            "Outils de documentation",
+            "Outils de reporting"
+        ],
+        "correctAnswer": "Outils d'exécution de tests automatiques"
+    },
+    {
+        "id": 24,
+        "chapter": "Chapitre 6 : Outils de support",
+        "question": "Comment évaluer l'efficacité d'un outil de tests logiciel ?",
+        "options": [
+            "En analysant le coût de la licence uniquement",
+            "En étudiant les cas d'utilisation documentés",
+            "En comparant avec les outils concurrentiels",
+            "En validant les besoins spécifiques à l'équipe"
+        ],
+        "correctAnswer": "En validant les besoins spécifiques à l'équipe",
+        "reference": "Section 6.4 - Choix d'outils",
+        "explanation": "Chaque équipe a des besoins différents qui doivent correspondre aux fonctionnalités de l'outil sélectionné."
+    }
+]
+

@@ -1,0 +1,138 @@
+body{
+    display: flex;
+    font-family: Arial,  sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.fruit-card{
+    border: 1px solid  #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #fff;
+    cursor: pointer;
+}
+.fruit-card:hover{
+    box-shadow: -2px 3px 20px #28a745;
+    width: 205px;;
+    transition: 0.3s all;
+}
+.fruit-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.fruit-card h2 {
+    color: #333;
+}
+
+.fruit-card p {
+    font-size: 18px;
+    color: #666;
+}
+.fruit-card p::after {
+    content: "  € /Kg"
+}
+.fruit-card input {
+    width: 100px;
+    margin-bottom: 10px;
+    border: #218838 solid 1px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #218838;
+}
+
+#search-bar{
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.filter-section{
+    margin-bottom: 20px;
+}
+
+.filter-section input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.panier-container {
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    height: max-content;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: start;
+}
+
+.total{
+    margin-top: 10px;
+    text-align: center;
+    align-self: center;
+    border:1px solid #666;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f0e6d1;
+    font-size: larger;
+    font-weight: bold;
+    color: #12481e;
+}
+
+
+
+ul{
+    margin: 0;
+}
+
+.article-panier{
+    display: block;
+    gap: 15px;
+    align-items: start;
+    justify-content: center;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.article-panier:hover{
+   background-color: #f0e6d18d;
+   transition: 0.3s all;
+}
+
