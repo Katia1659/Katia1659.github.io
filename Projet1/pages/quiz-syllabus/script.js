@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
               }
               setTimeout(() => {
-              
+                index++
                 score++;
                 if (index < quizQuestions.length) {
                   creatQuiz(quizQuestions[index], element);
