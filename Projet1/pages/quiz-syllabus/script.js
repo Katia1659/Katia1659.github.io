@@ -103,6 +103,7 @@ document.addEventListener("DOMContentLoaded", () => {
              
               setTimeout(() => {
                 if (index < quizQuestions.length) {
+                  index++
                   creatQuiz(quizQuestions[index], element);
                 } else {
                   let persent = Math.round((score / quizQuestions.length) * 100, 2);;
