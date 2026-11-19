@@ -1,309 +1,221 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <title>CV-Kaouthar</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio professionnel de Kaouthar Zerzour, Testeuse logiciel et QA Analyst." />
+  <title>Kaouthar Zerzour — QA Analyst</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
-
 <body>
-  <!-- Le header avec les options de navigation pour les différentes sections de la page. Les classes Bootstrap sont utilisées pour styliser les options de navigation. -->
-
-  <header data-aos="zoom-out">
-    <ul data-aos="fade-up" data-aos-duration="1000" class="nav" id>
-      <!-- <h3  class="display-1" id="tit">LAMRI KAOUTHAR</h3> -->
-      <li class="nav-item">
-        <a id="opt" class="nav-link active" aria-current="page" href="#Experience">EXPERIENCES</a>
-      </li>
-      <li class="nav-item">
-        <a id="opt" class="nav-link" href="#viepro">VIE PROFESSIONNELLE</a>
-      </li>
-      <li class="nav-item">
-        <a id="opt" class="nav-link" href="#skills">SKILLS</a> 
-      </li>
-      <li class="nav-item">
-        <a id="opt" class="nav-link" href="#Formation">FORMATION</a>
-      </li>
-      <li class="nav-item">
-        <a id="opt" class="nav-link" href="Projet1/index.html">PROJETS</a>
-      </li>
-    </ul>
+  <header class="site-header">
+    <a class="brand" href="#accueil">KZ<span>.</span></a>
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      ☰
+    </button>
+    <nav id="navigation">
+      <a href="#profil">Profil</a><a href="#competences">Compétences</a><a href="#experiences">Expériences</a><a
+        href="#contact">Contact</a>
+    </nav>
   </header>
-  <!-- La section de profil avec des informations sur l'utilisateur et une photo. La bibliothèque AOS est utilisée pour les animations. -->
-  <div id="prof" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-    <div id="ifoperso">
-      <div id="imag">
-        <img id="profil" data-aos="fade-right" data-aos-duration="3000" src="profile-pic.png" 
-          class="rounded mx-auto d-block" alt="photo de profile .." title="mes infos">
-      </div>
-      <div id="info" data-aos="fade-left" data-aos-duration="3000">
-        <h2 class="card-title">LAMRI KAOUTHAR</h2>
-        <il id="text" class="infperso"> Phone : <br>
-          <p>0651 19 9720</p></i>
-          <il id="text class=" infperso"> Email: <br>
-            <p>kawtharlamri@gmail.com</p></i>
-            <il id="text class=" infperso"> Adresse: <br>
-              <p>101 Avenue de Verdun <br> 59100 Roubaix</p></i>
-      </div>
-    </div>
-
-
-    <div id="prof2" class="card-body">
-
-      <p data-aos="fade-up" data-aos-duration="3000" id="bio" class="card-text">
-
-        Enthousiaste et passionnée par l'apprentissage continu, je suis une ancienne biologiste en reconversion dans le développement web. Déterminée à relever de nouveaux défis, j'ai décidé de mettre mes compétences analytiques, de résolution de problèmes et de travail d'équipe au service du développement des applications web performants et innovants. Avec une forte capacité d'adaptation et une grande rigueur dans mon travail, je suis convaincue que je peux apporter une contribution significative à votre entreprise.
+  <main>
+    <section class="hero reveal" id="accueil">
+      <p class="eyebrow">QUALITÉ LOGICIELLE • TESTS • FIABILITÉ</p>
+      <h1>Kaouthar <span>Zerzour</span></h1>
+      <h2 style="font-family: Manrope, sans-serif; font-weight: 700;">
+        Testeuse logiciel <span class="muted">| QA Analyst</span> <span>| Certifiée ISTQB fondation</span>
+      </h2>
+      <p class="intro">
+        7 ans d’expérience en assurance qualité et performance, complétés par
+        une reconversion en informatique, une certification ISTQB et une
+        première expérience en qualification logicielle.
       </p>
-    </div>
-  </div>
-
-  <!-- La section de compétences avec des icônes pour les compétences de l'utilisateur. La bibliothèque AOS est utilisée pour les animations. -->
-
-  <div id="skil">
-    <img id="icon" data-aos="flip-left" data-aos-duration="2000" src="icons/css-3.png" alt="Css" title="CSS3">
-
-    <img id="icon" data-aos="flip-right" data-aos-duration="2000" src="icons/html.png" alt="HTML" title="HTML5">
-
-    <img id="icon" data-aos="flip-left" data-aos-duration="2000" src="icons/js.png" alt="JS" title="JavaScript">
-
-    <img id="icon" data-aos="flip-right" data-aos-duration="2000" src="icons/github.png" alt="GitHUB" title="GitHub">
-  </div>
-
-  <!-- La section Expériences avec des sections pour les expériences de l'utilisateur. La classe Bootstrap est utilisée pour la mise en page. -->
-  <div id="Experience" class="container text-center" style="background-color:transparent;">
-    <h1 data-aos="fade-up" data-aos-duration="2000">EXPERIENCES</h1>
-    <hr>
-    <div class="row">
-      <div data-aos="flip-left" data-aos-duration="2000" id="dateexp" class="col">
-        <H2> HTMelle #7</H2>
-        <p>Février 2022- Mars 2022 </p>
-        <p><code>MiE </code>ROUBAIX</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#experiences">Découvrir mon parcours</a><a class="button secondary"
+          href="Kaouthar_Zerzour_CV_QA.pdf" download>Télécharger mon CV</a>
       </div>
-
-      <div data-aos="flip-right" data-aos-duration="2000" id="infoexp" class="col">
-        <p> Un programme d'immersion au monde de Numérique comprenant:
-          des ateliers dans déférentes établissement de Formation :</p>
-
-        <ul class="list-group">
-          <li class="list-group-item">> Holberton Schoole</li>
-          <li class="list-group-item">> Simplone</li>
-          <li class="list-group-item">> Le Wagon</li>
-        </ul>
-        <p>Des Témoignage des professionnel des métiers</p>
-
-        <ul class="list-group">
-          <li class="list-group-item">>Témoignage de cofondatrice de Tomogrow</li>
-          <li class="list-group-item">> Témoignage data analyst</li>
-          <li class="list-group-item">> Témoignage d’une dirigeante et d’une RH SEMIFIR</li>
-        </ul>
+      <p class="location">
+        Roubaix · Métropole lilloise · Mobilité locale · Hybride / présentiel
+      </p>
+    </section>
+    <section class="section reveal" id="profil">
+      <p class="eyebrow">01 / PROFIL</p>
+      <h2>La qualité comme fil conducteur</h2>
+      <p>
+        Mon parcours associe une expérience longue en assurance qualité dans
+        le secteur des analyses médicales et une spécialisation récente en
+        informatique. Cette double approche m’apporte rigueur, sens de la
+        traçabilité, analyse des écarts et compréhension technique des
+        applications.
+      </p>
+      <p>
+        Je souhaite contribuer à la fiabilité des produits numériques au sein
+        d’une équipe QA, en tests fonctionnels, qualification et suivi des
+        anomalies.
+      </p>
+      <div class="stat-grid">
+        <article>
+          <strong>7 ans</strong><span>Qualité & performance</span>
+        </article>
+        <article>
+          <strong>ISTQB</strong><span>Certification · 2025</span>
+        </article>
+        <article>
+          <strong>QA</strong><span>Stage de qualification · 2026</span>
+        </article>
       </div>
-      <hr>
-      <div class="row">
-        <div data-aos="flip-left" data-aos-duration="2000" id="dateexp" class="col">
-          <H2> LA NURSERIE</H2>
-          <p>MAI 2022- JUIN 2022</p>
-          <p><code>M2I AFPA </code>LILLE</p>
-        </div>
-
-        <div data-aos="flip-right" data-aos-duration="2000" id="infoexp" class="col">
-          <p> Parcours de découverte du métier de Numérique sur 5 semaines d’ateliers pratiques</p>
-
-        </div>
-        <hr>
-        <div class="row">
-          <div data-aos="flip-left" data-aos-duration="2000" id="dateexp" class="col">
-            <H2> Formation Technique de base développement d'application</H2>
-            <p>JUIN 2022- AOUT 2022</p>
-            <p><code>AFPA</code>ROUBAIX</p>
-          </div>
-          <div data-aos="flip-right" data-aos-duration="2000" id="infoexp" class="col">
-            <ul class="list-group">
-              <li class="list-group-item">>Maîtriser les bases de l'algorithmique préalable à l'approche programmation.
+    </section>
+    <section class="section reveal" id="competences">
+      <p class="eyebrow">02 / COMPÉTENCES</p>
+      <h2>Compétences clés</h2>
+      <div class="cards">
+        <article class="skill-card">
+          <h3>Tests & qualité</h3>
+          <p>
+            Tests fonctionnels et manuels, cas et plans de tests,
+            qualification, détection et suivi d’anomalies.
+          </p>
+        </article>
+        <article class="skill-card">
+          <h3>Outils QA</h3>
+          <p>
+            Jira, Postman pour les tests API, Selenium pour quelques scripts
+            automatisés, Git / GitHub.
+          </p>
+        </article>
+        <article class="skill-card">
+          <h3>Socle technique</h3>
+          <p>
+            PHP, Symfony, API REST, SQL, Java / JEE, JavaScript, React, HTML5
+            et CSS3.
+          </p>
+        </article>
+        <article class="skill-card">
+          <h3>Méthodes & qualité</h3>
+          <p>
+            ISTQB, Agile / Scrum, Clean Code. Notions : PHPUnit, Docker,
+            Jenkins / CI-CD, OWASP et RGPD.
+          </p>
+        </article>
+      </div>
+    </section>
+    <section class="section reveal" id="experiences">
+      <p class="eyebrow">03 / EXPÉRIENCES</p>
+      <h2>Parcours professionnel</h2>
+      <div class="timeline">
+        <article>
+          <span class="date">2026</span>
+          <div>
+            <h3>QA / Testeuse logiciel — BrainCode</h3>
+            <p class="meta">Stage de qualification logicielle · Paris</p>
+            <ul>
+              <li>Participation à la qualification d’une application CRM.</li>
+              <li>
+                Tests manuels et fonctionnels ; participation aux plans de
+                tests.
               </li>
-              <li class="list-group-item">> Maîtriser les bases du développement d'une application orientée objet.</li>
+              <li>
+                Jira, Postman, Selenium et Git / GitHub ; réalisation de
+                quelques scripts automatisés.
+              </li>
+              <li>
+                Contrôle d’une campagne email : message de succès affiché,
+                mais aucun email reçu dans la boîte de test. Test déclaré en
+                échec.
+              </li>
             </ul>
           </div>
-          <hr>
-          <div class="row">
-            <div data-aos="flip-left" data-aos-duration="2000" id="dateexp" class="col">
-              <H2> Formation MS JAVA JEE</H2>
-              <p>AOUT 2022- NOVEMBRE 2022</p>
-              <p><code>AFPA </code>ROUBAIX</p>
-            </div>
-            <div data-aos="flip-right" data-aos-duration="2000" id="infoexp" class="col">
-              <ul class="list-group">
-                <li class="list-group-item">> Développer une application optimisée en JAVA et une application web avec
-                  J2EE</li>
-                <li class="list-group-item">> Maîtriser les fondamentaux de l'algorithmique.
-                </li>
-                <li class="list-group-item">>Maîtriser les fondamentaux de la modélisation objet UML.
-                </li>
-              </ul>
-            </div>
-
-
+        </article>
+        <article>
+          <span class="date">2024</span>
+          <div>
+            <h3>Développeuse Back-End & Web — INSY2S</h3>
+            <p class="meta">
+              Immersion en entreprise · Euratechnologies, Lille
+            </p>
+            <ul>
+              <li>Conception d’API REST avec Symfony.</li>
+              <li>
+                Modélisation de bases MySQL et travail en environnement Agile
+                / Jira.
+              </li>
+            </ul>
           </div>
-
-        </div>
-        <!-- La section Compétences . La classe Bootstrap est utilisée pour la mise en page. -->
-        <hr>
-        <div id="skills" class="container text-center" style="background-color:transparent;">
-          <h1 data-aos="fade-up" data-aos-duration="2000">COMPETENCES</h1>
-          <hr>
-          <div class="row">
-            <div data-aos="flip-left" data-aos-duration="2000" id="infoexp" class="col">
-              <h4> Front-end </h4>
-              <ul id="atou" class="list-group">
-                <li class="list-group-item">>HTML/CSS.</li>
-                <li class="list-group-item">>JAVASCRIPT</li>
-                <li class="list-group-item">>jQuery</li>
-                <li class="list-group-item">>AJAX</li>
-                <li class="list-group-item">>JSON</li>
-                <li class="list-group-item">>Bootstrap</li>
-              </ul>
-            </div>
-
-            <div data-aos="flip-left" data-aos-duration="2000" id="infoexp" class="col">
-              <h4> Back-end</h4>
-              <ul id="atou" class="list-group">
-                <li class="list-group-item">>PHP</li>
-                <li class="list-group-item">>JAVA.JEE</li>
-                <li class="list-group-item">>Symfony</li>
-                <li class="list-group-item">>MySQL</li>
-                <li class="list-group-item">>PostgreSQL</li>
-              </ul>
-            </div>
-            <div data-aos="flip-left" data-aos-duration="2000" id="infoexp" class="col">
-              <h4>ATOUT</h4>
-              <ul id="atou" class="list-group">
-                <li class="list-group-item">>UML</li>
-                <li class="list-group-item">>MCD</li>
-                <li class="list-group-item">>Git/versionning</li>
-                <li class="list-group-item">>API {RESTful}</li>
-                <li class="list-group-item">>Méthode AGILE/SCRUM</li>
-              </ul>
-            </div>
-            <div data-aos="flip-left" data-aos-duration="2000" id="infoexp" class="col">
-              <h4> SOFT SKILLS </h4>
-
-              <ul id="atou" class="list-group">
-                <li class="list-group-item">>Curiosité</li>
-                <li class="list-group-item">>Capacité d'adaptation</li>
-                <li class="list-group-item">>Travail en équipe</li>
-                <li class="list-group-item">>Créativité</li>
-                <li class="list-group-item">>Gestion de stress</li>
-                <li class="list-group-item">>Concentration</li>
-              </ul>
-            </div>
-
-            <div data-aos="flip-left" data-aos-duration="2000" id="infoexp" class="col">
-              <h4> LANGUES </h4>
-
-              <ul id="atou" class="list-group">
-                <li class="list-group-item">>FRANCAIS</li>
-                <li class="list-group-item">>ANGLAIS</li>
-                <li class="list-group-item">>ARABE</li>
-              </ul>
-            </div>
-
+        </article>
+        <article>
+          <span class="date">2011–2018</span>
+          <div>
+            <h3>Responsable Qualité et Performance</h3>
+            <p class="meta">
+              Laboratoire d’analyses médicales privé · Algérie
+            </p>
+            <ul>
+              <li>7 ans en assurance qualité et maîtrise des processus.</li>
+              <li>
+                Pilotage des normes qualité, audits internes et conformité
+                opérationnelle.
+              </li>
+              <li>
+                Traçabilité, analyse des écarts et amélioration continue.
+              </li>
+            </ul>
           </div>
-
-        </div>
-        <!-- La section de la formation . La classe Bootstrap est utilisée pour la mise en page. -->
-        <div id="Formation" class="container text-center" style="background-color:transparent;">
-          <h1 data-aos="fade-up" data-aos-duration="2000">FORMATION</h1>
-          <hr>
-          <div class="row" style="background-color:transparent;">
-            <div data-aos="flip-left" data-aos-duration="2000" id="infoexp" class="col"
-              style="background-color:transparent;"">
-      
-  <ul id=" atou" class="list-group">
-              <div data-aos="flip-left" data-aos-duration="2000" id="dateexp" class="col">
-                <H4>Titre professionnel Développement Web & Web Mobile</H4>
-                <li class="list-group-item">> NOVEMBRE 2022 - JUIN 2023  <br>
-                <p>AFPA Formation ROUBAIX </p>
-              </div>
-              <div class="row">
-                <h4> Master Biochimie & Biologie Moléculaire </h4>
-                <li class="list-group-item">> Promo: 2011 <br>
-                  <P> Université des Sciences Technologiques USTHB ALGER </P>
-                </li>
-                <h4> VAE BTS Technicien de laboratoires d'analyses Médicales </h4>
-                <li class="list-group-item">>Depuis Novembre 2021 <br>
-                  <P> GRETA Lille </P>
-                </li>
-              </div>
-
-            </div>
+        </article>
+        <article>
+          <span class="date">2018–2022</span>
+          <div>
+            <h3>Livreuse indépendante — Uber</h3>
+            <p class="meta">Lille</p>
+            <p>
+              Préparation et livraison de commandes avec attention portée à la
+              précision, aux délais et à la satisfaction client.
+            </p>
           </div>
-
-
-          <!-- La section de Vie Professionnel . La classe Bootstrap est utilisée pour la mise en page. -->
-          <hr>
-          <div id="viepro" class="container text-center" style="background-color:transparent;">
-            <h1 data-aos="fade-up" data-aos-duration="2000">VIE PROFESSIONNELLE</h1>
-            <hr>
-            <div class="row">
-
-              <div data-aos="flip-left" data-aos-duration="2000" id="dateexp" class="col">
-                <H2> INGENIEUR D'ANALYSE EN BIOLOGIE CLINIQUE</H2>
-                <p>Décembre 2011 - Mars 2018 </p>
-              </div>
-
-              <div data-aos="flip-right" data-aos-duration="2000" id="infoexp" class="col">
-                <h4> Laboratoire d'analyse Médicale </h4>
-
-                <p> EXTRAT </p>
-
-                <ul class="list-group">
-                  <li class="list-group-item">>Gestion et organisation de Laboratoire</li>
-                  <li class="list-group-item">>Traitement des données analyses</li>
-                  <li class="list-group-item">>Maintenance système réseaux</li>
-                  <li class="list-group-item">>Méthodes d'analyses biologiques</li>
-                  <li class="list-group-item">>Maintenance des automates et Appareils bio-informatiques</li>
-                  <li class="list-group-item">>Gérer un équipe de travail</li>
-                </ul>
-              </div>
-
-            </div>
-
-          </div>
-
-
-          <!-- La section Contact . La classe Bootstrap est utilisée pour la mise en page. -->
-          <footer>
-
-            <div id="skil2">
-              <a href="https://www.facebook.com/kawthar.lamri"><img id="icon2" data-aos="flip-left"
-                  data-aos-duration="1000" src="icons/FB_icon-icons.com_65534.png" alt="fb"></a>
-
-              <a href="http://www.linkedin.com/in/kawthar-lamri-3792221b4">
-                <img id="icon2" data-aos="flip-right" data-aos-duration="1000"
-                  src="icons/LINKEDIN_icon-icons.com_65538.png" alt="linked">
-              </a>
-              <a href="mailto:kawtharlamri@gmail.com">
-                <img id="icon2" data-aos="flip-left" data-aos-duration="1000"
-                  src="icons/google_icon-icons.com_65550.png" alt="mail">
-              </a>
-            </div>
-
-          </footer>
-
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-          <script src="script.js"></script>
-          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-          <script>
-            AOS.init();
-          </script>
-
-
+        </article>
+      </div>
+    </section>
+    <section class="section reveal" id="formation">
+      <p class="eyebrow">04 / FORMATION</p>
+      <h2>Formation & certification</h2>
+      <ul class="education">
+        <li>
+          <strong>2025</strong><span>Certification ISTQB — GASQ, Lille</span>
+        </li>
+        <li>
+          <strong>2023</strong><span>Développement Web & Web Mobile — PHP / Symfony, AFPA
+            Roubaix</span>
+        </li>
+        <li><strong>2022</strong><span>MS Java JEE — AFPA Roubaix</span></li>
+        <li>
+          <strong>2022</strong><span>Nurserie Numérique — M2i / Euratechnologies</span>
+        </li>
+        <li>
+          <strong>2011</strong><span>Master Biochimie & Biologie moléculaire — Bac+5</span>
+        </li>
+      </ul>
+      <p class="languages">
+        <strong>Langues :</strong> Français bilingue · Anglais courant /
+        technique · Arabe langue maternelle
+      </p>
+    </section>
+    <section class="section contact reveal" id="contact">
+      <p class="eyebrow">05 / CONTACT</p>
+      <h2>Échangeons sur vos besoins QA.</h2>
+      <p>
+        Disponible pour étudier une opportunité en test logiciel / assurance
+        qualité dans la métropole lilloise.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:kawtharlamri@gmail.com">kawtharlamri@gmail.com</a><a href="tel:+33651199720">06 51 19 97
+          20</a><a href="https://www.linkedin.com/in/kawthar-lamri-3792221b4" target="_blank"
+          rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+  <footer>© <span id="year"></span> Kaouthar Zerzour · Portfolio QA</footer>
+  <script src="script.js"></script>
 </body>
-
 
 </html>
