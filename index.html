@@ -2,75 +2,131 @@
 <html lang="fr">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Portfolio professionnel de Kaouthar Zerzour, Testeuse logiciel et QA Analyst." />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="Portfolio professionnel de Kaouthar Zerzour, Testeuse logiciel et QA Analyst.">
+
+  <meta name="author" content="Kaouthar Zerzour">
+  <meta name="theme-color" content="#fbfdfd">
+
   <title>Kaouthar Zerzour — QA Analyst</title>
-  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 
 <body>
+
   <header class="site-header">
-    <a class="brand" href="#accueil">KZ<span>.</span></a>
-    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+    <a class="brand" href="#accueil" aria-label="Accueil">KZ<span>.</span></a>
+
+    <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false"
+      aria-controls="navigation">
       ☰
     </button>
-    <nav id="navigation">
-      <a href="#profil">Profil</a><a href="#competences">Compétences</a><a href="#experiences">Expériences</a><a
-        href="#contact">Contact</a>
+   
+
+    <nav id="navigation" aria-label="Navigation principale">
+      <a href="#profil">Profil</a>
+      <a href="#competences">Compétences</a>
+      <a href="#experiences">Expériences</a>
+      <a href="#formation">Formation</a>
+      <a href="#certification">Diplômes</a>
+      <a href="#contact">Contact</a>
     </nav>
+    <button class="theme-toggle" type="button" aria-label="Activer le thème sombre" aria-pressed="false">
+      <span class="theme-icon">☾</span>
+    </button>
   </header>
+
   <main>
+
+    <!-- ACCUEIL -->
     <section class="hero reveal" id="accueil">
       <p class="eyebrow">QUALITÉ LOGICIELLE • TESTS • FIABILITÉ</p>
+
       <h1>Kaouthar <span>Zerzour</span></h1>
-      <h2 style="font-family: Manrope, sans-serif; font-weight: 700;">
-        Testeuse logiciel <span class="muted">| QA Analyst</span> <span>| Certifiée ISTQB fondation</span>
+
+      <h2>
+        Testeuse logiciel
+        <span class="muted">| QA Analyst | Certifiée ISTQB Foundation Level</span>
       </h2>
+
       <p class="intro">
-        7 ans d’expérience en assurance qualité et performance, complétés par
-        une reconversion en informatique, une certification ISTQB et une
-        première expérience en qualification logicielle.
+        7 ans d’expérience en assurance qualité et performance,
+        complétés par une reconversion en informatique,
+        une certification ISTQB et une première expérience
+        en qualification logicielle.
       </p>
+
       <div class="hero-actions">
-        <a class="button primary" href="#experiences">Découvrir mon parcours</a><a class="button secondary"
-          href="Kaouthar_Zerzour_CV_QA.pdf" download>Télécharger mon CV</a>
+        <a class="button primary" href="#experiences">
+          Découvrir mon parcours
+        </a>
+
+        <a class="button secondary" href="Kaouthar_Zerzour_CV_QA.pdf" download>
+          Télécharger mon CV
+        </a>
       </div>
+
       <p class="location">
         Roubaix · Métropole lilloise · Mobilité locale · Hybride / présentiel
       </p>
     </section>
+
+    <!-- PROFIL -->
     <section class="section reveal" id="profil">
       <p class="eyebrow">01 / PROFIL</p>
+
       <h2>La qualité comme fil conducteur</h2>
+
       <p>
-        Mon parcours associe une expérience longue en assurance qualité dans
-        le secteur des analyses médicales et une spécialisation récente en
-        informatique. Cette double approche m’apporte rigueur, sens de la
-        traçabilité, analyse des écarts et compréhension technique des
-        applications.
+        Mon parcours associe une expérience longue en assurance qualité
+        dans le secteur des analyses médicales et une spécialisation
+        récente en informatique. Cette double approche m’apporte
+        rigueur, sens de la traçabilité, analyse des écarts et
+        compréhension technique des applications.
       </p>
+
       <p>
-        Je souhaite contribuer à la fiabilité des produits numériques au sein
-        d’une équipe QA, en tests fonctionnels, qualification et suivi des
-        anomalies.
+        Je souhaite contribuer à la fiabilité des produits numériques
+        au sein d’une équipe QA, en tests fonctionnels, qualification
+        et suivi des anomalies.
       </p>
+
       <div class="stat-grid">
         <article>
-          <strong>7 ans</strong><span>Qualité & performance</span>
+          <strong>7 ans</strong>
+          <span>Qualité & performance</span>
         </article>
+
         <article>
-          <strong>ISTQB</strong><span>Certification · 2025</span>
+          <strong>ISTQB</strong>
+          <span>Certification · 2025</span>
         </article>
+
         <article>
-          <strong>QA</strong><span>Stage de qualification · 2026</span>
+          <strong>QA</strong>
+          <span>Qualification logicielle · 2026</span>
         </article>
       </div>
     </section>
+
+    <!-- COMPÉTENCES -->
     <section class="section reveal" id="competences">
       <p class="eyebrow">02 / COMPÉTENCES</p>
+
       <h2>Compétences clés</h2>
+
       <div class="cards">
+
         <article class="skill-card">
           <h3>Tests & qualité</h3>
           <p>
@@ -78,144 +134,250 @@
             qualification, détection et suivi d’anomalies.
           </p>
         </article>
+
         <article class="skill-card">
           <h3>Outils QA</h3>
           <p>
-            Jira, Postman pour les tests API, Selenium pour quelques scripts
-            automatisés, Git / GitHub.
+            Jira, Postman pour les tests API, Selenium pour quelques
+            scripts automatisés, Git / GitHub.
           </p>
         </article>
+
         <article class="skill-card">
           <h3>Socle technique</h3>
           <p>
-            PHP, Symfony, API REST, SQL, Java / JEE, JavaScript, React, HTML5
-            et CSS3.
+            PHP, Symfony, API REST, SQL, Java / JEE, JavaScript,
+            React, HTML5 et CSS3.
           </p>
         </article>
+
         <article class="skill-card">
           <h3>Méthodes & qualité</h3>
           <p>
-            ISTQB, Agile / Scrum, Clean Code. Notions : PHPUnit, Docker,
-            Jenkins / CI-CD, OWASP et RGPD.
+            ISTQB, Agile / Scrum, Clean Code.
+            Notions : PHPUnit, Docker, Jenkins / CI-CD,
+            OWASP et RGPD.
           </p>
         </article>
+
       </div>
     </section>
+
+    <!-- EXPÉRIENCES -->
     <section class="section reveal" id="experiences">
       <p class="eyebrow">03 / EXPÉRIENCES</p>
+
       <h2>Parcours professionnel</h2>
+
       <div class="timeline">
+
         <article>
           <span class="date">2026</span>
+
           <div>
             <h3>QA / Testeuse logiciel — BrainCode</h3>
             <p class="meta">Stage de qualification logicielle · Paris</p>
+
             <ul>
               <li>Participation à la qualification d’une application CRM.</li>
+              <li>Tests manuels et fonctionnels ; participation aux plans de tests.</li>
               <li>
-                Tests manuels et fonctionnels ; participation aux plans de
-                tests.
-              </li>
-              <li>
-                Jira, Postman, Selenium et Git / GitHub ; réalisation de
-                quelques scripts automatisés.
+                Utilisation de Jira, Postman, Selenium et Git / GitHub ;
+                réalisation de quelques scripts automatisés.
               </li>
               <li>
                 Contrôle d’une campagne email : message de succès affiché,
-                mais aucun email reçu dans la boîte de test. Test déclaré en
-                échec.
+                mais aucun email reçu dans la boîte de test.
+                Test déclaré en échec.
               </li>
             </ul>
           </div>
         </article>
+
         <article>
           <span class="date">2024</span>
+
           <div>
             <h3>Développeuse Back-End & Web — INSY2S</h3>
-            <p class="meta">
-              Immersion en entreprise · Euratechnologies, Lille
-            </p>
+            <p class="meta">Immersion en entreprise · Euratechnologies, Lille</p>
+
             <ul>
               <li>Conception d’API REST avec Symfony.</li>
               <li>
-                Modélisation de bases MySQL et travail en environnement Agile
-                / Jira.
+                Modélisation de bases MySQL et travail en environnement
+                Agile / Jira.
               </li>
             </ul>
           </div>
         </article>
+
         <article>
           <span class="date">2011–2018</span>
+
           <div>
             <h3>Responsable Qualité et Performance</h3>
             <p class="meta">
               Laboratoire d’analyses médicales privé · Algérie
             </p>
+
             <ul>
               <li>7 ans en assurance qualité et maîtrise des processus.</li>
               <li>
-                Pilotage des normes qualité, audits internes et conformité
-                opérationnelle.
+                Pilotage des normes qualité, audits internes
+                et conformité opérationnelle.
               </li>
-              <li>
-                Traçabilité, analyse des écarts et amélioration continue.
-              </li>
+              <li>Traçabilité, analyse des écarts et amélioration continue.</li>
             </ul>
           </div>
         </article>
+
         <article>
           <span class="date">2018–2022</span>
+
           <div>
             <h3>Livreuse indépendante — Uber</h3>
             <p class="meta">Lille</p>
+
             <p>
-              Préparation et livraison de commandes avec attention portée à la
-              précision, aux délais et à la satisfaction client.
+              Préparation et livraison de commandes avec attention
+              portée à la précision, aux délais et à la satisfaction client.
             </p>
           </div>
         </article>
+
       </div>
     </section>
+
+    <!-- FORMATION -->
     <section class="section reveal" id="formation">
       <p class="eyebrow">04 / FORMATION</p>
+
       <h2>Formation & certification</h2>
+
       <ul class="education">
         <li>
-          <strong>2025</strong><span>Certification ISTQB — GASQ, Lille</span>
+          <strong>2025</strong>
+          <span>Certification ISTQB — GASQ, Lille</span>
         </li>
+
         <li>
-          <strong>2023</strong><span>Développement Web & Web Mobile — PHP / Symfony, AFPA
-            Roubaix</span>
+          <strong>2023</strong>
+          <span>
+            Titre professionnel Développeur Web et Web Mobile
+            — PHP / Symfony, AFPA Roubaix
+          </span>
         </li>
-        <li><strong>2022</strong><span>MS Java JEE — AFPA Roubaix</span></li>
+
         <li>
-          <strong>2022</strong><span>Nurserie Numérique — M2i / Euratechnologies</span>
+          <strong>2022</strong>
+          <span>MS Java JEE — AFPA Roubaix</span>
         </li>
+
         <li>
-          <strong>2011</strong><span>Master Biochimie & Biologie moléculaire — Bac+5</span>
+          <strong>2022</strong>
+          <span>Nurserie Numérique — M2i / Euratechnologies</span>
+        </li>
+
+        <li>
+          <strong>2011</strong>
+          <span>
+            Master Biochimie et Biologie moléculaire — Bac+5
+          </span>
         </li>
       </ul>
+
       <p class="languages">
-        <strong>Langues :</strong> Français bilingue · Anglais courant /
-        technique · Arabe langue maternelle
+        <strong>Langues :</strong>
+        Français bilingue · Anglais technique · Arabe langue maternelle
       </p>
     </section>
-    <section class="section contact reveal" id="contact">
-      <p class="eyebrow">05 / CONTACT</p>
-      <h2>Échangeons sur vos besoins QA.</h2>
+
+    <!-- DIPLÔMES ET CERTIFICATIONS -->
+    <section class="section reveal" id="certification">
+      <p class="eyebrow">05 / DIPLÔMES & CERTIFICATIONS</p>
+
+      <h2>Mes qualifications</h2>
+
       <p>
-        Disponible pour étudier une opportunité en test logiciel / assurance
-        qualité dans la métropole lilloise.
+        Retrouvez mes diplômes et certifications professionnelles.
+        Cliquez sur un document pour l'afficher en taille réelle.
       </p>
-      <div class="contact-links">
-        <a href="mailto:kawtharlamri@gmail.com">kawtharlamri@gmail.com</a><a href="tel:+33651199720">06 51 19 97
-          20</a><a href="https://www.linkedin.com/in/kawthar-lamri-3792221b4" target="_blank"
-          rel="noopener">LinkedIn</a>
+
+      <div class="certificate-carousel" aria-label="Carrousel des diplômes et certifications">
+
+        <button class="carousel-btn prev" type="button" aria-label="Document précédent">
+          &#10094;
+        </button>
+
+        <div class="certificate-slide active" aria-hidden="false">
+
+          <h3>ISTQB® Foundation Level</h3>
+          <p>Certified Tester – Syllabus v4.0 · 2025</p>
+
+          <a href="assets/certification-istqb.png" target="_blank" rel="noopener noreferrer">
+            <img src="assets/certification-istqb.png" alt="Certification ISTQB Foundation Level" loading="lazy">
+          </a>
+        </div>
+
+        <div class="certificate-slide" aria-hidden="true" inert>
+
+          <h3>Titre professionnel Développeur Web et Web Mobile</h3>
+          <p>AFPA de Roubaix · 2023</p>
+
+          <a href="assets/diplome-dev.png" target="_blank" rel="noopener noreferrer">
+            <img src="assets/diplome-dev.png" alt="Titre professionnel Développeur Web et Web Mobile" loading="lazy">
+          </a>
+        </div>
+
+        <button class="carousel-btn next" type="button" aria-label="Document suivant">
+          &#10095;
+        </button>
+
+      </div>
+
+      <div class="carousel-indicators" aria-label="Sélectionner un document">
+
+        <button class="indicator active" type="button" aria-label="Afficher la certification ISTQB" aria-current="true">
+        </button>
+
+        <button class="indicator" type="button" aria-label="Afficher le diplôme de développement web">
+        </button>
+
       </div>
     </section>
+
+    <!-- CONTACT -->
+    <section class="section contact reveal" id="contact">
+      <p class="eyebrow">06 / CONTACT</p>
+
+      <h2>Échangeons sur vos besoins QA.</h2>
+
+      <p>
+        Disponible pour étudier une opportunité en test logiciel
+        / assurance qualité dans la métropole lilloise.
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:kawtharlamri@gmail.com">
+          kawtharlamri@gmail.com
+        </a>
+
+        <a href="tel:+33651199720">
+          06 51 19 97 20
+        </a>
+
+        <a href="https://www.linkedin.com/in/kawthar-lamri-3792221b4" target="_blank" rel="noopener noreferrer">
+          LinkedIn
+        </a>
+      </div>
+    </section>
+
   </main>
-  <footer>© <span id="year"></span> Kaouthar Zerzour · Portfolio QA</footer>
-  <script src="script.js"></script>
+
+  <footer>
+    © <span id="year"></span> Kaouthar Zerzour · Portfolio QA
+  </footer>
+
 </body>
 
 </html>
